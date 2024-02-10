@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i ./src/css/tailwind.css -o ./src/css/build.css -w",
+    "dev": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/build.css -w",
     "deploy": "gh-pages -d src"
   },
   "keywords": [],

@@ -1,0 +1,93 @@
+@import "./components/buttons.css";
+@import "./components/style.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white bg-primary;
+    transition: all 0.3s;
+    font-family: varela;
+  }
+
+  @font-face {
+    font-family: "inter";
+    src: url("../assets/fonts/Inter-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "inter-bold";
+    src: url("../assets/fonts/Inter-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "varela";
+    src: url("../assets/fonts/varela-round.ttf");
+  }
+
+  h1 {
+    @apply mb-5 text-5xl leading-normal;
+  }
+
+  h2 {
+    @apply mb-4 text-4xl leading-normal;
+  }
+
+  h3 {
+    @apply mb-3 text-3xl leading-normal;
+  }
+
+  h4 {
+    @apply mb-2 text-2xl leading-normal;
+  }
+
+  h5 {
+    @apply text-xl leading-normal;
+  }
+
+  h6 {
+    @apply text-lg leading-normal;
+  }
+}
+
+@layer components {
+  .container {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+}
+
+@layer utilities {
+  .gradient-border {
+    position: relative;
+    background: #0a0f29;
+    border-radius: 10px;
+  }
+
+  .gradient-border::after {
+    position: absolute;
+    content: "";
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    background: linear-gradient(
+      to top,
+      rgba(187, 71, 166, 0.7),
+      rgba(78, 109, 216, 0.7)
+    );
+    border-radius: 10px;
+    z-index: -1;
+  }
+
+  .border-b-gradient {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(
+        to right,
+        rgba(78, 108, 216, 0.5),
+        rgba(187, 71, 166, 0.386)
+      )
+      1;
+  }
+}

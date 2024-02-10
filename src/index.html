@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/build.css" />
+  </head>
+  <body>
+    <div class="md:px-12 header-container">
+      <header class="md:p-2 md:pt-6">
+        <div class="relative flex items-center justify-between">
+          <img
+            src="./assets/images/header/logo.png"
+            alt="logo"
+            class="navbar-logo w-16 max-[768px]:absolute max-[768px]:z-50 max-[768px]:top-4 max-[768px]:left-4"
+          />
+          <!-- BURGER BUTTON -->
+          <button type="button" class="z-50 nav-burger-btn md:hidden">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <!-- nav list -->
+          <nav class="header-navbar">
+            <ul class="text-center md:flex md:items-center">
+              <li class="mx-3 lg:mx-4 max-[768px]:mb-4">
+                <a
+                  href="#"
+                  class="px-4 py-2 hover:text-[#dc69c7] transition-all"
+                  >Home</a
+                >
+              </li>
+              <li class="mx-3 lg:mx-4 max-[768px]:mb-4">
+                <a
+                  href="#"
+                  class="px-4 py-2 hover:text-[#dc69c7] transition-all"
+                  >Feature</a
+                >
+              </li>
+              <li class="mx-3 lg:mx-4 max-[768px]:mb-4">
+                <a
+                  href="#"
+                  class="px-4 py-2 hover:text-[#dc69c7] transition-all"
+                  >Product</a
+                >
+              </li>
+              <li class="mx-3 lg:mx-4 max-[768px]:mb-4">
+                <a
+                  href="#"
+                  class="px-4 py-2 hover:text-[#dc69c7] transition-all"
+                  >Contact</a
+                >
+              </li>
+              <button type="button" class="btn gradient-btn">
+                <span class="btn-text">Build Now</span>
+              </button>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!--  MAIN HEADER -->
+      <div
+        class="flex items-center justify-center xl:justify-between main-header"
+      >
+        <!-- header info -->
+        <section class="w-full px-4 xl:w-2/5">
+          <h2
+            class="font-inter-bold text-center xl:text-left text-4xl xl:text-5xl !leading-snug"
+          >
+            Discover the latest<br class="hidden xl:block" />
+            NFT Marketplace.
+          </h2>
+          <p class="text-xl text-center xl:text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum. Lorem ipsum
+          </p>
+          <!-- header buttons -->
+          <div
+            class="flex flex-wrap justify-center gap-3 mt-5 xl:justify-start"
+          >
+            <button type="button" class="btn gradient-btn me-8">
+              <span class="btn-text">Try for free</span>
+            </button>
+            <button
+              type="button"
+              class="btn outlined-btn hover:bg-white hover:text-black"
+            >
+              Learn more
+            </button>
+          </div>
+        </section>
+
+        <!-- header banner -->
+        <section class="header-banner-container">
+          <div class="relative">
+            <img
+              class="header-ellipse"
+              src="./assets/images/header/flowered-face.png"
+              alt="ellipse"
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- PROVIDER SECTION -->
+    <div class="p-6 mt-14 provider-container md:p-8 lg:py-12 mb-14">
+      <div class="grid items-center">
+        <section
+          class="xl:col-start-1 xl:col-end-3 xl:mr-20 xl:pr-20 xl:mb-0 provider-title"
+        >
+          <h2 class="mb-0 text-center">We provide everything that you need</h2>
+        </section>
+        <section class="xl:col-start-5 xl:col-end-13">
+          <div class="grid gap-10 md:grid-cols-2 md:gap-4">
+            <!-- item -->
+            <section class="flex flex-col items-center">
+              <div class="bg-[#BB47A6] provider-icon mb-4">
+                <img
+                  src="./assets/images/main/Shopping Mall.svg"
+                  alt="shopping mall"
+                />
+              </div>
+              <h4>Buy NTF</h4>
+              <p class="w-5/6 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </section>
+            <!-- item -->
+            <section class="flex flex-col items-center">
+              <div class="bg-[#4E6DD8] provider-icon mb-4">
+                <img src="./assets/images/main/Sell.svg" alt="shopping mall" />
+              </div>
+              <h4>Sell NTF</h4>
+              <p class="w-5/6 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,r
+                adipiscing elit,
+              </p>
+            </section>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- CARD SECTION -->
+    <div class="container px-4 lg:px-12 mb-14">
+      <div class="grid items-center lg:grid-cols-2">
+        <section class="flex items-center justify-center">
+          <img
+            src="./assets/images/main/Card.png"
+            alt="cards"
+            class="w-4/6 mb-6 lg:w-1/2 xl:w-7/12 lg:mb-0"
+          />
+        </section>
+        <section>
+          <h3 class="font-bold text-center lg:text-left font-inter-bold">
+            Get exclusive NTF bundles from here.
+          </h3>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <button
+            type="button"
+            class="block mx-auto btn gradient-btn lg:inline"
+          >
+            <span class="btn-text">Learn More</span>
+          </button>
+        </section>
+      </div>
+    </div>
+
+    <!-- EXPLORE SECTION -->
+    <div class="container px-4 lg:px-20 mb-14 explore-container">
+      <h3 class="mb-6 text-center lg:text-left font-inter-bold">
+        Explore our collections
+      </h3>
+      <ul class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- card item -->
+        <li class="p-3 gradient-border">
+          <img
+            src="./assets/images/main/Rectangle 13.png"
+            class="w-full mb-4"
+            alt="explore img"
+          />
+          <div class="flex items-center justify-between">
+            <h4>Blue dolliner</h4>
+            <button type="button" class="py-1 btn gradient-btn font-inter-bold">
+              <span class="btn-text">BID</span>
+            </button>
+          </div>
+          <p class="text-gray-400">by Alon art</p>
+          <div class="flex items-center justify-between mt-4 mb-2 -ml-2">
+            <div class="flex items-center justify-between">
+              <img
+                src="./assets/images/main/Ethereum.png"
+                alt="ethereum"
+                class="w-6"
+              />
+              <p>1.52 ETH</p>
+            </div>
+            <p class="text-gray-400">3,243 USD</p>
+          </div>
+        </li>
+        <!-- card item -->
+        <li class="p-3 gradient-border">
+          <img
+            src="./assets/images/main/Rectangle 14.png"
+            class="w-full mb-4"
+            alt="explore img"
+          />
+          <div class="flex items-center justify-between">
+            <h4>Blue dolliner</h4>
+            <button type="button" class="py-1 btn gradient-btn font-inter-bold">
+              <span class="btn-text">BID</span>
+            </button>
+          </div>
+          <p class="text-gray-400">by Alon art</p>
+          <div class="flex items-center justify-between mt-4 mb-2 -ml-2">
+            <div class="flex items-center justify-between">
+              <img
+                src="./assets/images/main/Ethereum.png"
+                alt="ethereum"
+                class="w-6"
+              />
+              <p>1.52 ETH</p>
+            </div>
+            <p class="text-gray-400">3,243 USD</p>
+          </div>
+        </li>
+        <!-- card item -->
+        <li class="p-3 gradient-border">
+          <img
+            src="./assets/images/main/Rectangle 15.png"
+            class="w-full mb-4"
+            alt="explore img"
+          />
+          <div class="flex items-center justify-between">
+            <h4>Blue dolliner</h4>
+            <button type="button" class="py-1 btn gradient-btn font-inter-bold">
+              <span class="btn-text">BID</span>
+            </button>
+          </div>
+          <p class="text-gray-400">by Alon art</p>
+          <div class="flex items-center justify-between mt-4 mb-2 -ml-2">
+            <div class="flex items-center justify-between">
+              <img
+                src="./assets/images/main/Ethereum.png"
+                alt="ethereum"
+                class="w-6"
+              />
+              <p>1.52 ETH</p>
+            </div>
+            <p class="text-gray-400">3,243 USD</p>
+          </div>
+        </li>
+        <!-- card item -->
+        <li class="p-3 gradient-border">
+          <img
+            src="./assets/images/main/Rectangle 22.png"
+            class="w-full mb-4"
+            alt="explore img"
+          />
+          <div class="flex items-center justify-between">
+            <h4>Blue dolliner</h4>
+            <button type="button" class="py-1 btn gradient-btn font-inter-bold">
+              <span class="btn-text">BID</span>
+            </button>
+          </div>
+          <p class="text-gray-400">by Alon art</p>
+          <div class="flex items-center justify-between mt-4 mb-2 -ml-2">
+            <div class="flex items-center justify-between">
+              <img
+                src="./assets/images/main/Ethereum.png"
+                alt="ethereum"
+                class="w-6"
+              />
+              <p>1.52 ETH</p>
+            </div>
+            <p class="text-gray-400">3,243 USD</p>
+          </div>
+        </li>
+        <!-- card item -->
+        <li class="p-3 gradient-border">
+          <img
+            src="./assets/images/main/Rectangle 23.png"
+            class="w-full mb-4"
+            alt="explore img"
+          />
+          <div class="flex items-center justify-between">
+            <h4>Blue dolliner</h4>
+            <button type="button" class="py-1 btn gradient-btn font-inter-bold">
+              <span class="btn-text">BID</span>
+            </button>
+          </div>
+          <p class="text-gray-400">by Alon art</p>
+          <div class="flex items-center justify-between mt-4 mb-2 -ml-2">
+            <div class="flex items-center justify-between">
+              <img
+                src="./assets/images/main/Ethereum.png"
+                alt="ethereum"
+                class="w-6"
+              />
+              <p>1.52 ETH</p>
+            </div>
+            <p class="text-gray-400">3,243 USD</p>
+          </div>
+        </li>
+        <!-- card item -->
+        <li class="p-3 gradient-border">
+          <img
+            src="./assets/images/main/Rectangle 24.png"
+            class="w-full mb-4"
+            alt="explore img"
+          />
+          <div class="flex items-center justify-between">
+            <h4>Blue dolliner</h4>
+            <button type="button" class="py-1 btn gradient-btn font-inter-bold">
+              <span class="btn-text">BID</span>
+            </button>
+          </div>
+          <p class="text-gray-400">by Alon art</p>
+          <div class="flex items-center justify-between mt-4 mb-2 -ml-2">
+            <div class="flex items-center justify-between">
+              <img
+                src="./assets/images/main/Ethereum.png"
+                alt="ethereum"
+                class="w-6"
+              />
+              <p>1.52 ETH</p>
+            </div>
+            <p class="text-gray-400">3,243 USD</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- POPULAR SECTION -->
+    <div class="container px-4 lg:px-20 mb-14 popular-container">
+      <div class="mb-6">
+        <h3 class="text-center font-inter-bold">Most popular artist</h3>
+        <p class="w-full mx-auto text-center lg:w-1/2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. minim
+          veniam, quis nostrud exercitation ullamco .
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-start justify-center gap-6">
+        <!-- popular item -->
+        <section
+          class="gradient-border w-full md:w-[48%] xl:w-[29%] text-center pb-4"
+        >
+          <div class="relative">
+            <img
+              src="./assets/images/main/user-bg-1.png"
+              alt="user overlay"
+              class="w-full"
+            />
+            <img
+              src="./assets/images/main/user-1.png"
+              alt="user"
+              class="popular-user-img"
+            />
+          </div>
+          <div class="pb-3 mx-4 mb-3 border-b-gradient">
+            <button
+              type="button"
+              class="block mx-auto mt-20 text-lg text-gray-400 transition-all hover:text-white"
+            >
+              Follow
+            </button>
+            <h4 class="mt-4">Selina Geames</h4>
+            <p class="text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              fuga.
+            </p>
+          </div>
+          <!-- info -->
+          <ul class="grid grid-cols-3">
+            <li>
+              <p class="mb-2">Art Work</p>
+              <p class="text-gray-400">55</p>
+            </li>
+            <li>
+              <p class="mb-2">Follower</p>
+              <p class="text-gray-400">3.2K</p>
+            </li>
+            <li>
+              <p class="mb-2">Following</p>
+              <p class="text-gray-400">55</p>
+            </li>
+          </ul>
+        </section>
+        <!-- popular item -->
+        <section
+          class="gradient-border w-full md:w-[48%] xl:w-[37%] text-center pb-4"
+        >
+          <div class="relative">
+            <img
+              src="./assets/images/main/user-bg-2.png"
+              alt="user overlay"
+              class="w-full"
+            />
+            <img
+              src="./assets/images/main/user-2.png"
+              alt="user"
+              class="popular-user-img"
+            />
+          </div>
+          <div class="pb-3 mx-4 mb-3 border-b-gradient">
+            <button
+              type="button"
+              class="block mx-auto mt-20 text-gray-400 transition-all xl:mt-24 xl:text-xl hover:text-white"
+            >
+              Follow
+            </button>
+            <h4 class="mt-4 xl:text-3xl">Anabella Heydari</h4>
+            <p class="text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur
+            </p>
+          </div>
+          <!-- info -->
+          <ul class="grid grid-cols-3">
+            <li>
+              <p class="mb-2 xl:text-xl">Art Work</p>
+              <p class="text-gray-400 xl:text-xl">55</p>
+            </li>
+            <li>
+              <p class="mb-2 xl:text-xl">Follower</p>
+              <p class="text-gray-400 xl:text-xl">3.2K</p>
+            </li>
+            <li>
+              <p class="mb-2 xl:text-xl">Following</p>
+              <p class="text-gray-400 xl:text-xl">55</p>
+            </li>
+          </ul>
+        </section>
+        <!-- popular item -->
+        <section
+          class="gradient-border w-full md:w-[60%] xl:w-[29%] text-center pb-4"
+        >
+          <div class="relative">
+            <img
+              src="./assets/images/main/user-bg-3.png"
+              alt="user overlay"
+              class="w-full"
+            />
+            <img
+              src="./assets/images/main/user-3.png"
+              alt="user"
+              class="popular-user-img"
+            />
+          </div>
+          <div class="pb-3 mx-4 mb-3 border-b-gradient">
+            <button
+              type="button"
+              class="block mx-auto mt-20 text-lg text-gray-400 transition-all hover:text-white"
+            >
+              Follow
+            </button>
+            <h4 class="mt-4">Abdolla Ghasemi</h4>
+            <p class="text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              fuga.
+            </p>
+          </div>
+          <!-- info -->
+          <ul class="grid grid-cols-3">
+            <li>
+              <p class="mb-2">Art Work</p>
+              <p class="text-gray-400">55</p>
+            </li>
+            <li>
+              <p class="mb-2">Follower</p>
+              <p class="text-gray-400">3.2K</p>
+            </li>
+            <li>
+              <p class="mb-2">Following</p>
+              <p class="text-gray-400">55</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- CREATE CONTAINER -->
+    <div
+      class="container flex flex-col items-center justify-center h-screen px-4 lg:px-20 create-container"
+    >
+      <h2 class="text-3xl text-center font-inter-bold md:text-6xl">
+        Create Your NTF
+      </h2>
+      <p class="text-center md:w-1/2 mb-7">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco .
+      </p>
+      <button type="button" class="btn gradient-btn">
+        <span class="btn-text">Try for now</span>
+      </button>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer p-4 bg-gradient-to-l from-[#bb47a699] to-[#4e6dd899]">
+      <p class="text-center">
+        Created With Me
+      </p>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

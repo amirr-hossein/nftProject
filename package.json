@@ -1,14 +1,10 @@
 {
   "name": "tailwind-practice",
   "version": "1.0.0",
-  "repository": {
-    "url": "https://github.com/soufi-learn/NTF-project.git"
-  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/build.css -w",
-    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
